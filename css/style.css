@@ -5710,3 +5710,51 @@ button {
     cursor: pointer;
 }
 
+
+.no_pad_top {padding-top: 0px !important;}
+
+
+
+.rec_img {max-width: 50px;}
+.nutrition {line-height: 20px;}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Adjust line height for tablets */
+    .nutrition {
+        font-size: 14px;
+      }
+    }
+  
+
+/* Styles for smaller screens (phones) */
+@media screen and (max-width: 767px) {
+    /* Adjust line height for mobile devices */
+    .nutrition {
+      font-size: 12px;
+    }
+  }
+
+.max-width-400 {max-width: 400px;}
+
+.font-sm {font-size: smaller;}
+
+.color-white {color: white !important;}
+
+
+
+
+@media screen and (min-width: 768px) {
+    /* Add styles for tablets and larger screens here */
+    .element-to-hide {
+      display: block; /* or any other display property */
+    }
+  }
+  
+  /* Styles for smaller screens (phones) */
+  @media screen and (max-width: 767px) {
+    /* Hide the element on screens smaller than a tablet */
+    .element-to-hide {
+      display: none;
+    }
+  }
